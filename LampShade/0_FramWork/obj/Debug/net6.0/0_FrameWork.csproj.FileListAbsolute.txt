@@ -1,0 +1,12 @@
+E:\Asp.net core\LampShade\LampShade\0_FramWork\bin\Debug\net6.0\0_FrameWork.deps.json
+E:\Asp.net core\LampShade\LampShade\0_FramWork\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\0_FramWork\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\refint\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\0_FramWork\obj\Debug\net6.0\ref\0_FrameWork.dll
