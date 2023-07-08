@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application;
+using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Configuration;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
@@ -14,7 +16,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
 builder.Services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
-
+builder.Services.AddTransient<IProductApplication, ProductApplication>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
 builder.Services.AddDbContext<ShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
