@@ -10,6 +10,7 @@ namespace ShopManagement.Application.Contracts.Product
         OpretionResult IsStock(long id);
         OpretionResult NotInStock(long id);
         EditProduct GetDetails(long id);
+        List<ProductViewModel> GetProducts();
         List<ProductViewModel> Search(ProductSearchModel searchModel);
 
     }
