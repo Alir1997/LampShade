@@ -1,3 +1,5 @@
+using _01_LampshadeQuery.Contracts.Slide;
+using _01_LampshadeQuery.Query;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application;
@@ -11,6 +13,7 @@ using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
+using _01_LampshadeQuery.Contracts.ProductCategory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +29,11 @@ builder.Services.AddTransient<IProductPictureApplication, ProductPictureApplicat
 builder.Services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
 builder.Services.AddTransient<ISlideApplication, SlideApplication>();
 builder.Services.AddTransient<ISlideRepository, SlideRepository>();
+
+
+builder.Services.AddTransient<ISlideQuery, SlideQuery>();
+builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+
 
 builder.Services.AddDbContext<ShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
