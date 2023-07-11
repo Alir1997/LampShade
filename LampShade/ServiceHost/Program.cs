@@ -6,7 +6,6 @@ using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slide;
-using ShopManagement.Configuration;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -14,6 +13,13 @@ using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using _01_LampshadeQuery.Contracts.ProductCategory;
+using DiscountManagement.Application;
+using DiscountManagement.Application.Contract.CustomerDiscount;
+using DiscountManagement.Domain.CustomerDiscountAgg;
+using DiscountManagement.Infrastructure.EFCore;
+using DiscountManagement.Infrastructure.EFCore.Repository;
+using DiscountManagement.Domain.ColleagueDiscountAgg;
+using DiscountManagement.Application.Contract.ColleagueDiscount;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,7 +41,16 @@ builder.Services.AddTransient<ISlideQuery, SlideQuery>();
 builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
 
+builder.Services.AddTransient<ICustomerDiscountApplication, CustomerDiscountApplication>();
+builder.Services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();
+
+builder.Services.AddTransient<IColleagueDiscountRepository, ColleagueDiscountRepository>();
+builder.Services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountApplication>();
+
 builder.Services.AddDbContext<ShopContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
+
+builder.Services.AddDbContext<DiscountContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 
 
