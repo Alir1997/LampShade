@@ -22,7 +22,7 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.Slugify();
 
-            var product = new Product(command.Name, command.Code, command.UnitPrice,
+            var product = new Product(command.Name, command.Code,
                 command.ShortDescription, command.Description, command.Picture,
                 command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDescription);
@@ -43,38 +43,10 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
 
-            product.Edit(command.Name, command.Code, command.UnitPrice,
+            product.Edit(command.Name, command.Code, 
                 command.ShortDescription, command.Description, command.Picture,
                 command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDescription);
-
-            _productRepository.SaveChanges();
-            return operation.Succedded();
-        }
-
-        public OpretionResult IsStock(long id)
-        {
-            var operation = new OpretionResult();
-            var product = _productRepository.Get(id);
-            if (product == null)
-            {
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-            }
-            product.InStock();
-
-            _productRepository.SaveChanges();
-            return operation.Succedded();
-        }
-
-        public OpretionResult NotInStock(long id)
-        {
-            var operation = new OpretionResult();
-            var product = _productRepository.Get(id);
-            if (product == null)
-            {
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-            }
-            product.NotInStock();
 
             _productRepository.SaveChanges();
             return operation.Succedded();

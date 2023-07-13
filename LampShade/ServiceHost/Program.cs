@@ -20,6 +20,11 @@ using DiscountManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore.Repository;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
+using InventoryManagement.Application;
+using InventoryManagement.Application.Contract.Inventory;
+using InventoryManagement.Domain.InventoryAgg;
+using InventoryMangement.Infrastructure.EFCore;
+using InventoryMangement.Infrastructure.EFCore.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,10 +52,21 @@ builder.Services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepos
 builder.Services.AddTransient<IColleagueDiscountRepository, ColleagueDiscountRepository>();
 builder.Services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountApplication>();
 
+builder.Services.AddTransient<IInventoryRepository, InventoryRepository>();
+builder.Services.AddTransient<IInventoryApplication, InventoryApplication>();
+
+
+
+
+
+
 builder.Services.AddDbContext<ShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 
 builder.Services.AddDbContext<DiscountContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
+
+builder.Services.AddDbContext<InventoryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 
 
