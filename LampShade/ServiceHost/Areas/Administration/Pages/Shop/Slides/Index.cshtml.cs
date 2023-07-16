@@ -22,7 +22,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
             _slideApplication = slideApplication;
         }
 
-
         public void OnGet()
         {
             Slides = _slideApplication.GetList();
@@ -33,7 +32,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
             var command = new CreateSlide();
             return Partial("./Create", command);
         }
-
 
         public JsonResult OnPostCreate(CreateSlide command)
         {
@@ -46,7 +44,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
             var slide = _slideApplication.GetDetails(id);
             return Partial("Edit", slide);
         }
-
 
         public JsonResult OnPostEdit(EditSlide command)
         {

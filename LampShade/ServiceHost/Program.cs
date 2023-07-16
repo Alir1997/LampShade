@@ -1,3 +1,4 @@
+using _01_LampshadeQuery.Contracts.Product;
 using _01_LampshadeQuery.Contracts.Slide;
 using _01_LampshadeQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -54,6 +55,10 @@ builder.Services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountAp
 
 builder.Services.AddTransient<IInventoryRepository, InventoryRepository>();
 builder.Services.AddTransient<IInventoryApplication, InventoryApplication>();
+
+
+builder.Services.AddTransient<IProductQuery, ProductQuery>();
+builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
 
 

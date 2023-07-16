@@ -22,7 +22,19 @@ namespace ShopManagement.Domain.ProductAgg
         public List<ProductPicture> ProductPictures { get;private set; }
 
 
-        public Product(string name, string code, string shortDescription, string description, string picture, string pictureAlt, string pictureTitle, long categoryId, string slug, string keywords, string metaDescription)
+        
+
+        public Product(string name,
+            string code,
+            string picture,
+            string shortDescription,
+            string description, 
+            string pictureAlt,
+            string pictureTitle,
+            long categoryId, 
+            string slug,
+            string keywords,
+            string metaDescription)
         {
             Name = name;
             Code = code;
@@ -36,6 +48,10 @@ namespace ShopManagement.Domain.ProductAgg
             Keywords = keywords;
             MetaDescription = metaDescription;
         }
+
+     
+        
+
         public void Edit(string name, string code, string shortDescription, string description, string pictureAlt, string pictureTitle, string picture, long categoryId, string slug, string keywords, string metaDescription)
         {
             Name = name;

@@ -16,16 +16,33 @@ namespace ShopManagement.Application
         }
         public OpretionResult Create(CreateProduct command)
         {
+
+        
+
             var operation = new OpretionResult();
             if (_productRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
+            var product = new Product
+                (
+                    
+              name: command.Name,
+              code:  command.Code,
+              picture:   command.Picture,
+              shortDescription:   command.ShortDescription,
+              description:  command.Description,
+              pictureAlt:  command.PictureAlt,
+              pictureTitle:  command.PictureTitle,
+              categoryId:  command.CategoryId,
+              slug:  command.Slug,
+              keywords:  command.Keywords,
+              metaDescription: command.MetaDescription
+              
+             );
 
-            var product = new Product(command.Name, command.Code,
-                command.ShortDescription, command.Description, command.Picture,
-                command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
-                command.Keywords, command.MetaDescription);
+
+
             _productRepository.Create(product);
             _productRepository.SaveChanges();
             return operation.Succedded();
