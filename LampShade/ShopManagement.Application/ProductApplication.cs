@@ -2,47 +2,38 @@
 using _0_FrameWork.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
+using ShopManagement.Domain.ProductCategoryAgg;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace ShopManagement.Application
 {
     public class ProductApplication : IProductApplication
     {
+        private readonly IFileUploader _fileUploader;
         private readonly IProductRepository _productRepository;
+        private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductApplication(IProductRepository productRepository)
+        public ProductApplication(IProductRepository productRepository, IFileUploader fileUploader, IProductCategoryRepository productCategoryRepository)
         {
+            _fileUploader = fileUploader;
             _productRepository = productRepository;
+            _productCategoryRepository = productCategoryRepository;
         }
+
         public OpretionResult Create(CreateProduct command)
         {
-
-        
-
             var operation = new OpretionResult();
             if (_productRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            var product = new Product
-                (
-                    
-              name: command.Name,
-              code:  command.Code,
-              picture:   command.Picture,
-              shortDescription:   command.ShortDescription,
-              description:  command.Description,
-              pictureAlt:  command.PictureAlt,
-              pictureTitle:  command.PictureTitle,
-              categoryId:  command.CategoryId,
-              slug:  command.Slug,
-              keywords:  command.Keywords,
-              metaDescription: command.MetaDescription
-              
-             );
-
-
-
+            var categorySlug = _productCategoryRepository.GetSlugById(command.CategoryId);
+            var path = $"{categorySlug}//{slug}";
+            var picturePath = _fileUploader.Upload(command.Picture, path);
+            var product = new Product(command.Name, command.Code,
+                command.ShortDescription, command.Description, picturePath,
+                command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
+                command.Keywords, command.MetaDescription);
             _productRepository.Create(product);
             _productRepository.SaveChanges();
             return operation.Succedded();
@@ -51,17 +42,19 @@ namespace ShopManagement.Application
         public OpretionResult Edit(EditProduct command)
         {
             var operation = new OpretionResult();
-            var product = _productRepository.Get(command.Id);
+            var product = _productRepository.GetProductWithCategory(command.Id);
             if (product == null)
-            {
                 return operation.Failed(ApplicationMessages.RecordNotFound);
-            }
+
             if (_productRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
-            var slug = command.Slug.Slugify();
 
-            product.Edit(command.Name, command.Code, 
-                command.ShortDescription, command.Description, command.Picture,
+            var slug = command.Slug.Slugify();
+            var path = $"{product.Category.Slug}/{slug}";
+
+            var picturePath = _fileUploader.Upload(command.Picture, path);
+            product.Edit(command.Name, command.Code,
+                command.ShortDescription, command.Description, picturePath,
                 command.PictureAlt, command.PictureTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDescription);
 

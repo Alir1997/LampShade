@@ -14,6 +14,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
     public class ProductRepository : RepositoryBase<long, Product>, IProductRepository
     {
         private readonly ShopContext _context;
+        private IProductRepository _productRepositoryImplementation;
 
         public ProductRepository(ShopContext context) : base(context)
         {
@@ -33,13 +34,17 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Description = x.Description,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
-                Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 ShortDescription = x.ShortDescription,
             })
                 .FirstOrDefault(x => x.Id == id);
 #pragma warning restore CS8603
+        }
+
+        public Product GetProductWithCategory(long id)
+        {
+            return _context.Products.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
         }
 
         public List<ProductViewModel> GetProducts()

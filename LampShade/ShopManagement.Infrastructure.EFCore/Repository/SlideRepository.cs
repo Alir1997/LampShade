@@ -28,13 +28,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 BtnText = x.BtnText,
                 Heading = x.Heading,
-                Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Text = x.Text,
                 Link = x.Link,
                 Title = x.Title
-
             }).FirstOrDefault(x => x.Id == id);
 #pragma warning restore CS8603
         }

@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using _01_LampshadeQuery.Contracts.Product;
 using _01_LampshadeQuery.Contracts.Slide;
 using _01_LampshadeQuery.Query;
@@ -26,6 +27,7 @@ using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using InventoryMangement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore.Repository;
+using ServiceHost;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,6 +61,9 @@ builder.Services.AddTransient<IInventoryApplication, InventoryApplication>();
 
 builder.Services.AddTransient<IProductQuery, ProductQuery>();
 builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+
+
+builder.Services.AddTransient<IFileUploader, FileUploader>();
 
 
 
