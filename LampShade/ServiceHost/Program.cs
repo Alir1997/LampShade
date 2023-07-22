@@ -15,6 +15,10 @@ using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using _01_LampshadeQuery.Contracts.ProductCategory;
+using CommentManagement.Application;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Domain.CommentAgg;
+using CommnetManagement.Infrastructure.EFCore.Repository;
 using DiscountManagement.Application;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using DiscountManagement.Domain.CustomerDiscountAgg;
@@ -64,6 +68,9 @@ builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
 
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+
+builder.Services.AddTransient<ICommentApplication, CommentApplication>();
+builder.Services.AddTransient<ICommentRepository, CommentRepository>();
 
 
 
