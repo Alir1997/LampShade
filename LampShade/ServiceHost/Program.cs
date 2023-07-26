@@ -15,6 +15,12 @@ using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using _01_LampshadeQuery.Contracts.ProductCategory;
+using BlogManagement.Application;
+using BlogManagement.Application.Contracts.Article;
+using BlogManagement.Application.Contracts.ArticleCategory;
+using BlogManagement.Domain.ArticleAgg;
+using BlogManagement.Domain.ArticleCategoryAgg;
+using BlogManagement.Infrastructure.EFCore.Repository;
 using CommentManagement.Application;
 using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Domain.CommentAgg;
@@ -32,6 +38,7 @@ using InventoryManagement.Domain.InventoryAgg;
 using InventoryMangement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore.Repository;
 using ServiceHost;
+using BlogManagement.Infrastructure.EFCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,8 +54,6 @@ builder.Services.AddTransient<IProductPictureApplication, ProductPictureApplicat
 builder.Services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
 builder.Services.AddTransient<ISlideApplication, SlideApplication>();
 builder.Services.AddTransient<ISlideRepository, SlideRepository>();
-
-
 builder.Services.AddTransient<ISlideQuery, SlideQuery>();
 builder.Services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
@@ -73,6 +78,13 @@ builder.Services.AddTransient<ICommentApplication, CommentApplication>();
 builder.Services.AddTransient<ICommentRepository, CommentRepository>();
 
 
+builder.Services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
+builder.Services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
+
+builder.Services.AddTransient<IArticleRepository, ArticleRepository>();
+builder.Services.AddTransient<IArticleApplication, ArticleApplication>();
+
+
 
 
 
@@ -84,6 +96,9 @@ builder.Services.AddDbContext<DiscountContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 
 builder.Services.AddDbContext<InventoryContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
+
+builder.Services.AddDbContext<BlogContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 
 
