@@ -1,0 +1,15 @@
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\bin\Debug\net6.0\AccountManagement.Application.Contracts.deps.json
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.csproj.CopyComplete
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\refint\AccountManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\AccountManagement.Application.Contracts\obj\Debug\net6.0\ref\AccountManagement.Application.Contracts.dll

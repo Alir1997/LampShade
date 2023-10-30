@@ -1,9 +1,12 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using _0_FrameWork.Domain;
-using Microsoft.EntityFrameworkCore;
 
-namespace _0_FrameWork.Infrastructure
+namespace _0_Framework.Infrastructure
 {
     public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class
     {

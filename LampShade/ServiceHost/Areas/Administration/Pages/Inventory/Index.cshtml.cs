@@ -5,9 +5,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
 using InventoryManagement.Application.Contract.Inventory;
+using _0_Framework.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ServiceHost.Areas.Administration.Pages.Inventory
 {
+    [Authorize(Roles = Roles.Administrator)]
     public class IndexModel : PageModel
     {
         [TempData]

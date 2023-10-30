@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using _01_LampshadeQuery.Contracts.Product;
 using _01_LampshadeQuery.Contracts.Slide;
 using _01_LampshadeQuery.Query;
@@ -15,6 +16,10 @@ using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using _01_LampshadeQuery.Contracts.ProductCategory;
+using AccountManagement.Application;
+using AccountManagement.Application.Contracts.Account;
+using AccountManagement.Domain.AccountAgg;
+using AccountMangement.Infrastructure.EFCore.Repository;
 using BlogManagement.Application;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
@@ -39,6 +44,16 @@ using InventoryMangement.Infrastructure.EFCore;
 using InventoryMangement.Infrastructure.EFCore.Repository;
 using ServiceHost;
 using BlogManagement.Infrastructure.EFCore;
+using AccountManagement.Application.Contracts.Role;
+using AccountManagement.Domain.RoleAgg;
+using AccountMangement.Infrastructure.EFCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
+using _01_LampshadeQuery.Contracts.Article;
+using _01_LampshadeQuery.Contracts.ArticleCategory;
+using InventoryManagement.Infrastructure.Configuration.Permissions;
+using ShopManagement.Configuration.Permissions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -84,7 +99,68 @@ builder.Services.AddTransient<IArticleCategoryRepository, ArticleCategoryReposit
 builder.Services.AddTransient<IArticleRepository, ArticleRepository>();
 builder.Services.AddTransient<IArticleApplication, ArticleApplication>();
 
+builder.Services.AddTransient<IAccountApplication, AccountApplication>();
+builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+builder.Services.AddTransient<IRoleApplication, RoleApplication>();
+builder.Services.AddTransient<IRoleRepository, RoleRepository>();
 
+
+builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
+builder.Services.AddTransient<IAuthHelper, AuthHelper>();
+
+builder.Services.AddTransient<IArticleQuery, ArticleQuery>();
+builder.Services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
+
+builder.Services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
+builder.Services.AddTransient<IPermissionExposer, InventoryPermissionExposer>();
+
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
+
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+    {
+        o.LoginPath = new PathString("/Account");
+        o.LogoutPath = new PathString("/Account");
+        o.AccessDeniedPath = new PathString("/AccessDenied");
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminArea",
+        builder => builder.RequireRole(new List<string> { Roles.Administrator, Roles.ContentUploader }));
+
+    options.AddPolicy("Shop",
+        builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+
+    options.AddPolicy("Discount",
+        builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+
+    options.AddPolicy("Account",
+        builder => builder.RequireRole(new List<string> { Roles.Administrator }));
+});
+
+builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
+    builder
+        .WithOrigins("https://localhost:5002")
+        .AllowAnyHeader()
+        .AllowAnyMethod()));
+
+builder.Services.AddRazorPages()
+    .AddRazorPagesOptions(options =>
+    {
+        options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+        options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+        options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
+        options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
+    });
 
 
 
@@ -100,6 +176,11 @@ builder.Services.AddDbContext<InventoryContext>(options =>
 
 builder.Services.AddDbContext<BlogContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
+
+builder.Services.AddDbContext<AccountContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
+
+
 
 
 builder.Services.AddRazorPages();
@@ -119,6 +200,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>

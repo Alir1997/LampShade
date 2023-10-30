@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Application;
-using _0_FrameWork.Infrastructure;
+using _0_Framework.Infrastructure;
+
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using DiscountManagement.Domain.CustomerDiscountAgg;
 using ShopManagement.Infrastructure.EFCore;

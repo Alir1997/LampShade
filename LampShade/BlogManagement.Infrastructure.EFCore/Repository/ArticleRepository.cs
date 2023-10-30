@@ -1,9 +1,10 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
 
-using _0_FrameWork.Infrastructure;
+
 
 namespace BlogManagement.Infrastructure.EFCore.Repository
 {

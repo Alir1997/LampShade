@@ -1,5 +1,5 @@
 ﻿using _0_Framework.Application;
-using _0_FrameWork.Infrastructure;
+using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 

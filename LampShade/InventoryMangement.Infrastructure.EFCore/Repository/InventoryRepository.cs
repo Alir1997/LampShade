@@ -1,8 +1,9 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using ShopManagement.Infrastructure.EFCore;
-using _0_FrameWork.Infrastructure;
+
 
 
 namespace InventoryMangement.Infrastructure.EFCore.Repository
