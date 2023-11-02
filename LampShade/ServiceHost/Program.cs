@@ -50,15 +50,24 @@ using AccountMangement.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
+using _0_Framework.Application.ZarinPal;
 using _01_LampshadeQuery.Contracts.Article;
 using _01_LampshadeQuery.Contracts.ArticleCategory;
 using InventoryManagement.Infrastructure.Configuration.Permissions;
 using ShopManagement.Configuration.Permissions;
+using _01_LampshadeQuery.Contracts;
+using InventoryManagement.Presentation.Api;
+using ShopManagement.Application.Contracts.Order;
+using ShopManagement.Domain.OrderAgg;
+using ShopManagement.Domain.Services;
+using ShopManagement.Infrastructure.AccountAcl;
+using ShopManagement.Infrastructure.InventoryAcl;
+using ShopManagement.Presentation.Api;
+using _01_LampshadeQuery.Contracts.Inventory;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 
 
 builder.Services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
@@ -81,6 +90,7 @@ builder.Services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountAp
 
 builder.Services.AddTransient<IInventoryRepository, InventoryRepository>();
 builder.Services.AddTransient<IInventoryApplication, InventoryApplication>();
+builder.Services.AddTransient<IInventoryQuery, InventoryQuery>();
 
 
 builder.Services.AddTransient<IProductQuery, ProductQuery>();
@@ -114,7 +124,20 @@ builder.Services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 builder.Services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 builder.Services.AddTransient<IPermissionExposer, InventoryPermissionExposer>();
 
-builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient<ICartCalculatorService, CartCalculatorService>();
+
+
+builder.Services.AddTransient<IOrderApplication, OrderApplication>();
+builder.Services.AddTransient<IOrderRepository, OrderRepository>();
+
+builder.Services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+
+builder.Services.AddSingleton<ICartService, CartService>();
+
+builder.Services.AddTransient<IShopInventoryAcl, ShopInventoryAcl>();
+builder.Services.AddTransient<IShopAccountAcl, ShopAccountAcl>();
+
+
 
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
@@ -149,18 +172,22 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
     builder
-        .WithOrigins("https://localhost:5002")
+        .WithOrigins("https://localhost:7069")
         .AllowAnyHeader()
         .AllowAnyMethod()));
 
 builder.Services.AddRazorPages()
+    .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
     .AddRazorPagesOptions(options =>
     {
         options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
         options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
         options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
         options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
-    });
+    })
+    .AddApplicationPart(typeof(ProductController).Assembly)
+    .AddApplicationPart(typeof(InventoryController).Assembly)
+    .AddNewtonsoftJson();
 
 
 
@@ -181,9 +208,9 @@ builder.Services.AddDbContext<AccountContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("LampshadeDb")));
 
 
+builder.Services.AddHttpContextAccessor();
 
 
-builder.Services.AddRazorPages();
 
 var app = builder.Build();
 

@@ -1,4 +1,6 @@
 ﻿
+using ShopManagement.Application.Contracts.Order;
+
 namespace _01_LampshadeQuery.Contracts.Product
 {
     public interface IProductQuery
@@ -6,5 +8,8 @@ namespace _01_LampshadeQuery.Contracts.Product
         ProductQueryModel GetDetails(string slug);
         List<ProductQueryModel> GetLattestArrivals();
         List<ProductQueryModel> Search(string value);
+        List<CartItem> CheckInventoryStatus(List<CartItem> cartItems);
+
+
     }
 }

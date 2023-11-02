@@ -12,4 +12,5 @@ public interface IInventoryApplication
     EditInventory GetDetails(long id);
     List<InventoryViewModel> Search(InventorySearchModel searchModel);
     List<InventoryOperationViewModel> GetOperationLog(long inventoryId);
+    
 }

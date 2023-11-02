@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using _01_LampshadeQuery.Contracts.Inventory;
+﻿using _01_LampshadeQuery.Contracts.Inventory;
 using InventoryMangement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore;
 
