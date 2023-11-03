@@ -1,0 +1,15 @@
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\bin\Debug\net6.0\BlogManagement.Application.Contracts.deps.json
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.csproj.CopyComplete
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\refint\BlogManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Application.Contracts\obj\Debug\net6.0\ref\BlogManagement.Application.Contracts.dll

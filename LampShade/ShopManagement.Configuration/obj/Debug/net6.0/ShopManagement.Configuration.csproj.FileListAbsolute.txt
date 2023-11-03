@@ -2,6 +2,9 @@ E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Configuration.dll
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Configuration.pdb
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\AccountManagement.Domain.dll
+E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\AccountMangement.Infrastructure.EFCore.dll
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.dll
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Domain.dll
@@ -10,6 +13,9 @@ E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.pdb
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\AccountManagement.Domain.pdb
+E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\AccountMangement.Infrastructure.EFCore.pdb
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.csproj.AssemblyReference.cache
 E:\Asp.net core\LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig

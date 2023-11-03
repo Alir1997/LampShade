@@ -1,0 +1,17 @@
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\DiscountManagement.Application.Contract.deps.json
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\refint\DiscountManagement.Application.Contract.dll
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\Asp.net core\LampShade\LampShade\DiscountManagement.Application.Contract\obj\Debug\net6.0\ref\DiscountManagement.Application.Contract.dll

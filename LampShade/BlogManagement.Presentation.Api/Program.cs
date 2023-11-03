@@ -4,23 +4,17 @@ using _01_LampshadeQuery.Contracts.ArticleCategory;
 using _01_LampshadeQuery.Query;
 using BlogManagement.Application;
 using BlogManagement.Application.Contracts.Article;
+using BlogManagement.Application.Contracts.ArticleCategory;
 using BlogManagement.Domain.ArticleAgg;
+using BlogManagement.Domain.ArticleCategoryAgg;
 using BlogManagement.Infrastructure.EFCore;
 using BlogManagement.Infrastructure.EFCore.Repository;
-using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Application;
+using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Domain.CommentAgg;
-using CommnetManagement.Infrastructure.EFCore.Repository;
+using CommentManagement.Infrastructure.EFCore.Repository;
 using Microsoft.EntityFrameworkCore;
 using ServiceHost;
-using AccountManagement.Application.Contracts.Account;
-using AccountManagement.Application.Contracts.Role;
-using AccountManagement.Application;
-using AccountManagement.Domain.AccountAgg;
-using AccountManagement.Domain.RoleAgg;
-using AccountMangement.Infrastructure.EFCore.Repository;
-using BlogManagement.Application.Contracts.ArticleCategory;
-using BlogManagement.Domain.ArticleCategoryAgg;
 
 var builder = WebApplication.CreateBuilder(args);
 

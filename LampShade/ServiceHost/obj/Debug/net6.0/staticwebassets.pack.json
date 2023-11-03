@@ -1105,6 +1105,186 @@
       "PackagePath": "staticwebassets\\AdminTheme\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product05.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product05.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product06.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product06.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product07.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product07.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product08.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product08.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product09.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product09.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product10.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product10.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product11.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product11.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\Product12.png",
+      "PackagePath": "staticwebassets\\ProductPictures\\Product12.png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\product01.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\product01.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\product02.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\product02.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\product03.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\product03.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\product04.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\product04.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-10-29-20-45-32-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-10-29-20-45-32-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-10-29-20-45-46-121802271.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-10-29-20-45-46-121802271.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-10-29-21-28-03-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-10-29-21-28-03-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-10-30-11-13-08-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-10-30-11-13-08-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\profilePhotos\\2023-10-30-11-41-25-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\profilePhotos\\2023-10-30-11-41-25-TrjCrY6yp3WkKZnML6BmPdJDS14ZVJnevIMahttr5GAEDTitui.jpg_512X512X70.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\sample.png",
+      "PackagePath": "staticwebassets\\ProductPictures\\sample.png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-19-48-44-2020-08-10-17-23-52-slider2.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-19-48-44-2020-08-10-17-23-52-slider2.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-19-52-45-2020-08-10-17-23-52-slider2.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-19-52-45-2020-08-10-17-23-52-slider2.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-19-55-36-2020-08-10-17-23-52-slider2.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-19-55-36-2020-08-10-17-23-52-slider2.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-19-59-16-2020-08-10-17-23-52-slider2.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-19-59-16-2020-08-10-17-23-52-slider2.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-20-03-35-1 (2).png",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-20-03-35-1 (2).png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-20-07-31-1 (2).jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-20-07-31-1 (2).jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-07-17-20-10-15-1 (2).png",
+      "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-07-17-20-10-15-1 (2).png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\2023-07-17-12-50-40-img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\2023-07-17-12-50-40-img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\صندلی-اتاق-خواب\\2023-11-01-12-42-31-img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\صندلی-اتاق-خواب\\2023-11-01-12-42-31-img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اخبار-شرکت\\2023-07-25-13-53-10-2020-08-16-15-42-07-news.png",
+      "PackagePath": "staticwebassets\\ProductPictures\\اخبار-شرکت\\2023-07-25-13-53-10-2020-08-16-15-42-07-news.png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اخبار-شرکت\\2023-07-25-13-53-27-2020-08-16-15-42-07-news.png",
+      "PackagePath": "staticwebassets\\ProductPictures\\اخبار-شرکت\\2023-07-25-13-53-27-2020-08-16-15-42-07-news.png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اخبار-شرکت\\تست-بلاگ-اسلاگ\\2023-07-26-13-02-00-2020-08-16-13-16-55-article 2.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\اخبار-شرکت\\تست-بلاگ-اسلاگ\\2023-07-26-13-02-00-2020-08-16-13-16-55-article 2.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\2023-07-17-12-46-50-2020-08-09-19-32-01-img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\2023-07-17-12-46-50-2020-08-09-19-32-01-img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\2023-07-17-13-17-38-2020-08-09-19-32-01-img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\2023-07-17-13-17-38-2020-08-09-19-32-01-img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-13-49-52-Product10.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-13-49-52-Product10.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-14-45-36-2020-08-10-12-40-39-product02.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-14-45-36-2020-08-10-12-40-39-product02.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-19-38-31-2020-08-11-11-33-14-sample.png",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-19-38-31-2020-08-11-11-33-14-sample.png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-21-20-29-sample.png",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-21-20-29-sample.png"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-21-22-33-2020-09-28-13-08-46-121802285.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\آباژور-آباژور\\2023-07-17-21-22-33-2020-09-28-13-08-46-121802285.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-17-21-20-47-2020-08-10-12-40-39-product02.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-17-21-20-47-2020-08-10-12-40-39-product02.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-19-14-11-57-2020-09-28-13-08-50-121802275.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-19-14-11-57-2020-09-28-13-08-50-121802275.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-19-14-12-09-2020-09-28-13-08-46-121802285.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-19-14-12-09-2020-09-28-13-08-46-121802285.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-19-14-12-18-2020-09-28-13-08-40-121802289.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\صندلی-پاف-آرتین-مدل-adt\\2023-07-19-14-12-18-2020-09-28-13-08-40-121802289.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\صندلی-پاف-مدل-2\\2023-07-17-13-52-14-2020-08-10-12-40-39-product02.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\صندلی-پاف-مدل-2\\2023-07-17-13-52-14-2020-08-10-12-40-39-product02.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\دکوری\\صندلی-پاف-مدل-2\\2023-07-17-21-22-27-2020-09-28-13-08-09-121802268.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\دکوری\\صندلی-پاف-مدل-2\\2023-07-17-21-22-27-2020-09-28-13-08-09-121802268.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\فضای-نگهدارنده\\2023-07-17-12-50-48-img1-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\فضای-نگهدارنده\\2023-07-17-12-50-48-img1-top-eposi1.jpg"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\فضای-نگهدارنده\\نردبان\\2023-11-01-12-32-52-Product08.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\فضای-نگهدارنده\\نردبان\\2023-11-01-12-32-52-Product08.jpg"
+    },
+    {
       "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",
       "PackagePath": "staticwebassets\\Theme\\assets\\css\\Custom.css"
     },
@@ -1521,12 +1701,24 @@
       "PackagePath": "staticwebassets\\Theme\\assets\\img\\testimonial\\testimor3-72x72.png"
     },
     {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\usericon.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\img\\usericon.png"
+    },
+    {
       "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\active.js",
       "PackagePath": "staticwebassets\\Theme\\assets\\js\\active.js"
     },
     {
       "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\ajax-mail.js",
       "PackagePath": "staticwebassets\\Theme\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\plugins.js"
     },
     {
       "Id": "E:\\Asp.net core\\LampShade\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\vendors.js",

@@ -18,7 +18,7 @@ namespace ShopManagement.Presentation.Api
         [HttpGet]
         public List<ProductQueryModel> GetLatestArrivals()
         {
-            return _productQuery.GetLattestArrivals();
+            return _productQuery.GetLatestArrivals();
         }
 
     }

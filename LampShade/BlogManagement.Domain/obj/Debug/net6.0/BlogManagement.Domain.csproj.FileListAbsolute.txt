@@ -1,0 +1,17 @@
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\BlogManagement.Domain.deps.json
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\BlogManagement.Domain.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\BlogManagement.Domain.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.csproj.CopyComplete
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\refint\BlogManagement.Domain.dll
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\BlogManagement.Domain.pdb
+E:\Asp.net core\LampShade\LampShade\BlogManagement.Domain\obj\Debug\net6.0\ref\BlogManagement.Domain.dll

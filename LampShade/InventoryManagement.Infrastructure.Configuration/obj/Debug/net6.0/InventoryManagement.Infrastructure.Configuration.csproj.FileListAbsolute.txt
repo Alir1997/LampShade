@@ -1,0 +1,15 @@
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.deps.json
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Configuration.dll

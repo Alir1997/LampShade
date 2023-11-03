@@ -1,0 +1,17 @@
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\InventoryManagement.Application.Contract.deps.json
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\0_FrameWork.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\0_FrameWork.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.AssemblyInfo.cs
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.csproj.CopyComplete
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\refint\InventoryManagement.Application.Contract.dll
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+E:\Asp.net core\LampShade\LampShade\InventoryManagement.Application.Contract\obj\Debug\net6.0\ref\InventoryManagement.Application.Contract.dll
