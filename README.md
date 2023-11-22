@@ -12,9 +12,9 @@ This project is an online store website developed using ASP.NET. It provides a f
 - Professional User Access Control: A robust user access control system is implemented, ensuring secure and professional management of user roles and permissions.
 
 
-![Alt Text](./Screenshots/Screenshot1.jpg){:width="500px"}
-![Alt Text](./Screenshots/Screenshot2.jpg){:width="500px"}
-![Alt Text](./Screenshots/Screenshot3.jpg){:width="500px"}
+![Alt Text](./Screenshots/Screenshot1.jpg){:width="100px"}
+![Alt Text](./Screenshots/Screenshot2.jpg){:width="100px"}
+![Alt Text](./Screenshots/Screenshot3.jpg){:width="100px"}
 
 # Installation and Usage
 
