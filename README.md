@@ -13,11 +13,11 @@ This project is an online store website developed using ASP.NET. It provides a f
 
 
 
-<img src="https://github.com/Alir1997/LampShade/blob/master/Screenshots/Screenshot1.jpg" width="200" />
+<img src="https://github.com/Alir1997/LampShade/blob/master/Screenshots/Screenshot1.jpg" width="600" />
 <br/>
-<img src="https://github.com/Alir1997/LampShade/blob/master/Screenshots/Screenshot2.jpg" width="200" />
+<img src="https://github.com/Alir1997/LampShade/blob/master/Screenshots/Screenshot2.jpg" width="600" />
 <br/>
-<img src="https://github.com/Alir1997/LampShade/blob/master/Screenshots/Screenshot3.jpg" width="200" />
+<img src="https://github.com/Alir1997/LampShade/blob/master/Screenshots/Screenshot3.jpg" width="600" />
 
 # Installation and Usage
 
