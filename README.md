@@ -11,6 +11,10 @@ This project is an online store website developed using ASP.NET. It provides a f
 - Warehouse Management System Integration: The website integrates with a warehouse management system via REST API, enabling real-time inventory management and order fulfillment.
 - Professional User Access Control: A robust user access control system is implemented, ensuring secure and professional management of user roles and permissions.
 
+![Website Screenshot](./Screenshots/Screenshot 2023-11-22 132040.jpg){:width="500px"}
+![Website Screenshot](./Screenshots/Screenshot 2023-11-22 132111.jpg){:width="500px"}
+![Website Screenshot](./Screenshots/Screenshot 2023-11-22 133029.jpg){:width="500px"}
+
 # Installation and Usage
 
 1. Clone the repository : `git clone https://github.com/Alir1997/LampShade.git`
@@ -33,3 +37,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 # License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+
