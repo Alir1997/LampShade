@@ -11,9 +11,9 @@ This project is an online store website developed using ASP.NET. It provides a f
 - Warehouse Management System Integration: The website integrates with a warehouse management system via REST API, enabling real-time inventory management and order fulfillment.
 - Professional User Access Control: A robust user access control system is implemented, ensuring secure and professional management of user roles and permissions.
 
-![Website Screenshot](./Screenshots/Screenshot 2023-11-22 132040.jpg){:width="500px"}
-![Website Screenshot](./Screenshots/Screenshot 2023-11-22 132111.jpg){:width="500px"}
-![Website Screenshot](./Screenshots/Screenshot 2023-11-22 133029.jpg){:width="500px"}
+![Alt Text](../Screenshots/Screenshot 2023-11-22 132040.jpg){:width="500px"}
+![Alt Text](../Screenshots/Screenshot 2023-11-22 132111.jpg){:width="500px"}
+![Alt Text](../Screenshots/Screenshot 2023-11-22 133029.jpg){:width="500px"}
 
 # Installation and Usage
 
